@@ -1,5 +1,5 @@
-//const apiUrl = "http://localhost:9000/api/v1";
 const apiUrl = "http://localhost:9000/api/v1";
+//const apiUrl = "https://rps-blogs-10095674266.catalystappsail.com/api/v1";
 
 
 // Signup
