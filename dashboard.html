@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dashboard</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h2>Blog Dashboard</h2>
+    <button onclick="logout()">Logout</button>
+    <h3>Create New Blog</h3>
+    <form id="create-form">
+        <input type="text" id="title" placeholder="Title" required>
+        <textarea id="content" placeholder="Content" required></textarea>
+        <button type="submit">Post</button>
+    </form>
+
+    <h3>Blogs</h3>
+    <div id="blog-container"></div>
+
+    <script src="script.js"></script>
+</body>
+</html>
